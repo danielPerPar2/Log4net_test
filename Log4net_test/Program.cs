@@ -15,8 +15,9 @@ namespace Log4net_test
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
-
+            log.Info("This is an info logger line");
             log.Error("This is my error");
+            
 
             Console.ReadLine();
         }
